@@ -1,5 +1,10 @@
+import Link from "next/link"
+
 export default function Page() {
   return (
-    <p>Dashboard Pageです</p>
+    <>
+      <p className="text-center my-20">Dashboard Pageです</p>
+    </>
+    
   )
 }
